@@ -1,0 +1,1772 @@
+
+<!DOCTYPE html><!-- Last Published: Tue Apr 21 2026 12:15:10 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.c12qe.com" data-wf-page="69d54d2d4802be9695ee8397" data-wf-site="6949d6da6bd006ff5e73e891" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>C12 Quantum Computing Roadmap | Speed, Scalability &amp; Real-World Viability</title><meta content="Discover C12’s quantum computing roadmap to fault-tolerant systems by 2033, built for speed, scalability, and real-world viability." name="description"/><meta content="C12 Quantum Computing Roadmap | Speed, Scalability &amp; Real-World Viability" property="og:title"/><meta content="Discover C12’s quantum computing roadmap to fault-tolerant systems by 2033, built for speed, scalability, and real-world viability." property="og:description"/><meta content="C12 Quantum Computing Roadmap | Speed, Scalability &amp; Real-World Viability" property="twitter:title"/><meta content="Discover C12’s quantum computing roadmap to fault-tolerant systems by 2033, built for speed, scalability, and real-world viability." property="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/css/pprod-c12qe.webflow.shared.1442ebd62.css" rel="stylesheet" type="text/css" integrity="sha384-FELr1ins9i7LaUbUXxfK3RAt9bsxSx5wlflkW9quTMjOKwLMaqo+6mVRtUWRFnBd" crossorigin="anonymous"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Saira:300,400,500,600,700"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69547f2a694f98435df850b9_Frame%201153.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69547f6122a3a0ff81e17e7a_webclip_c12.png" rel="apple-touch-icon"/><link href="https://c12qe.com/roadmap" rel="canonical"/><meta http-equiv="Content-Language" content="en-US">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TWLJJXW2');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWLJJXW2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- [Attributes by Finsweet] Link blocks in editor -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-linkblockedit@1/linkblockedit.js"></script>
+<style>
+
+/* cellules */
+[data-col-hover="item"] {
+  transition: background 0.25s ease;
+}
+
+/* gradient colonne active */
+[data-col-hover="item"][data-col-active="true"] {
+  background: linear-gradient(
+    90deg,
+    rgba(215,201,157,0) 0%,
+    rgba(215,201,157,0.3) 100%
+  );
+}
+
+/* hide elements */
+[data-col-hide="true"] {
+  transition: opacity 0.2s ease;
+}
+
+[data-col-hide="true"][data-col-hidden="true"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* images */
+[data-col-image="default"],
+[data-col-image="hover"] {
+  transition: opacity 0.25s ease;
+}
+
+/* image hover cachée par défaut */
+[data-col-image="hover"] {
+  opacity: 0;
+}
+
+/* swap images */
+[data-col-image="default"][data-col-active="true"] {
+  opacity: 0;
+}
+
+[data-col-image="hover"][data-col-active="true"] {
+  opacity: 1;
+}
+
+</style>
+
+
+
+<style>
+[data-btn-hover="true"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0);
+  transition: transform 0.22s cubic-bezier(.22,.9,.3,1);
+  will-change: transform;
+}
+
+[data-btn-label="true"] {
+  font-weight: 500;
+  transition: font-weight 0s linear 0.12s;
+}
+
+[data-btn-hover="true"]:hover {
+  transform: translateY(-4px);
+}
+
+[data-btn-hover="true"]:hover [data-btn-label="true"] {
+  font-weight: 600;
+  transition-delay: 0.1s;
+}
+
+[data-btn-hover="true"]:not(:hover) [data-btn-label="true"] {
+  transition-delay: 0s;
+}
+</style><script src="https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-countup@1.0.2/dist/countup.js" type="text/javascript" integrity="sha384-0IP2pSZZj/RumnTPNdmVWVMghCUi8KomyEgtVRALUEK0dCfntimr1Ml1aBJtRED4" crossorigin="anonymous"></script></head><body class="body"><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Set color style to inherit */
+.inherit-color * {
+    color: inherit;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 1 lines of text */
+.text-style-1lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* =========================
+   BUTTON LINE – TURBO FINISH
+   ========================= */
+
+.button_line{
+  position: relative;
+  display: inline-block;
+
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
+
+  -webkit-font-smoothing: antialiased;
+
+  transition:
+    font-variation-settings 160ms cubic-bezier(.2,.9,.2,1),
+    font-weight 160ms cubic-bezier(.2,.9,.2,1);
+}
+
+.button_line .text_button-line{
+  display: inline-block;
+  transform: translateY(0px);
+  transition: transform 160ms cubic-bezier(.16,1,.3,1);
+  will-change: transform;
+}
+
+.button_line .hover_line_button{
+  pointer-events: none;
+  width: 100%;
+  height: 2.5px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  background: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 3.5rem 100%;
+
+  /* 🚀 Ultra rapide avec finish très violent */
+  transition: background-size 260ms cubic-bezier(.05,0,1,1);
+  will-change: background-size;
+}
+
+@media (hover: hover) and (pointer: fine){
+  .button_line:hover .hover_line_button{
+    background-size: 100% 100%;
+  }
+
+  /* Texte + weight quasi à l'arrivée */
+  .button_line:hover{
+    transition-delay: 210ms; /* ~80% du temps */
+    font-weight: 600;
+    font-variation-settings: "wght" 600;
+  }
+
+  .button_line:hover .text_button-line{
+    transition-delay: 210ms;
+    transform: translateY(-2px);
+  }
+}
+
+/* Reset instant au retour */
+.button_line{ transition-delay: 0ms; }
+.button_line .text_button-line{ transition-delay: 0ms; }
+
+/* Focus reset après clic */
+.button_line:focus{ outline: none; }
+.button_line:focus:not(:focus-visible){
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
+}
+.button_line:focus:not(:focus-visible) .hover_line_button{
+  background-size: 3.5rem 100%;
+}
+.button_line:focus:not(:focus-visible) .text_button-line{
+  transform: translateY(0px);
+}
+
+
+.u-underline-hover{
+  position: relative;
+}
+
+/* Trait */
+.u-underline-hover::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px; /* ajuste si besoin */
+  width: 0;
+  height: 1px; /* plus fin */
+  background-color: currentColor;
+  transform: translateX(-50%);
+  transition: width 520ms cubic-bezier(.16,1,.3,1); /* plus smooth */
+}
+
+/* Hover */
+.u-underline-hover:hover::after{
+  width: 20px;
+}
+
+</style></div><div data-nav="" data-animation="default" class="navbar w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="64b2aacd-f568-33f9-8948-04d54cf01edd" role="banner" data-duration="400" data-element="navbar"><div class="navbar_container"><a href="/" class="navbar_logo-link w-nav-brand"><img data-element="nav-logo" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/696fd18748836241627bd7a8_Layer_1.svg" class="navbar_logo is-dark"/></a><nav role="navigation" class="navbar_menu w-nav-menu"><div class="navbar_menu-links"><a href="/" data-element="nav-text" class="navbar_link-dark u-underline-hover w-nav-link">home</a><div data-delay="200" data-hover="true" data-nav-dropdown="" data-w-id="9c8aea88-778d-d9e2-22e7-7ed2e9736887" class="container_dropdown w-dropdown"><div class="dropdown_dark w-dropdown-toggle"><a href="/technology" class="navbar_link-dark u-underline-hover">Technology</a><div data-element="nav-arrow" class="chevron_dropdown hide-tablet w-embed"><svg width="100%" height="100%" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.353516 0.353554L5.35356 5.35355L10.3535 0.353554" stroke="Currentcolor" style="Currentcolor"/>
+</svg></div></div><nav class="container_link-list w-dropdown-list"><div class="container-nav_relative"><a data-element="nav-text" href="/manufacturing" class="navbar_link-dark custom">MANUFACTURING</a></div><div class="container-nav_relative"><a data-element="nav-text" href="/roadmap" aria-current="page" class="navbar_link-dark custom w--current">ROADMAP</a></div><div class="container-nav_relative"><a data-element="nav-text" href="/publications" class="navbar_link-dark custom">PUBLICATIONS</a></div></nav></div><div data-delay="200" data-hover="true" data-nav-dropdown="" data-w-id="b7205366-aa9e-9c0c-b9db-6d3c65349ab5" class="container_dropdown w-dropdown"><div class="dropdown_dark w-dropdown-toggle"><a href="/solutions" class="navbar_link-dark u-underline-hover">SOLUTIONS</a><div data-element="nav-arrow" class="chevron_dropdown hide-tablet w-embed"><svg width="100%" height="100%" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.353516 0.353554L5.35356 5.35355L10.3535 0.353554" stroke="Currentcolor" style="Currentcolor"/>
+</svg></div></div><nav class="container_link-list w-dropdown-list"><div class="container-nav_relative"><a data-element="nav-text" href="/solutions/callisto" class="navbar_link-dark custom">CALLISTO</a></div><div class="container-nav_relative"><a data-element="nav-text" href="/solutions/promethia-suite" class="navbar_link-dark custom">Promethia Suite</a></div></nav></div><a href="/lab-tour" data-element="nav-text" class="navbar_link-dark u-underline-hover w-nav-link">LAB TOUR</a><div data-delay="200" data-hover="true" data-nav-dropdown="" data-w-id="044a63f1-cc9f-b8e1-d22b-37559b3360d0" class="container_dropdown w-dropdown"><div class="dropdown_dark w-dropdown-toggle"><a href="/about" class="navbar_link-dark u-underline-hover">ABOUT</a><div data-element="nav-arrow" class="chevron_dropdown hide-tablet w-embed"><svg width="100%" height="100%" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.353516 0.353554L5.35356 5.35355L10.3535 0.353554" stroke="Currentcolor" style="Currentcolor"/>
+</svg></div></div><nav class="container_link-list w-dropdown-list"><div class="container-nav_relative"><a data-element="nav-text" href="/news" class="navbar_link-dark custom">news</a></div></nav></div><a href="/join-us" data-element="nav-text" class="navbar_link hide-desktop w-nav-link">JOIN US</a></div><div class="navbar_menu-buttons hide-tablet"><a data-element="nav-button" data-w-id="64b2aacd-f568-33f9-8948-04d54cf01f0b" href="/join-us" class="button-block is-secondary w-inline-block"><div class="button-text">JOIN US</div><div data-element="nav-button-bg" class="button-block-overlay is-secondary"></div></a></div></nav><div class="navbar_menu-button w-nav-button"><div class="menu-icon1"><div data-element="burger-line" class="menu-icon1_line-top-dark"></div><div data-element="burger-line" class="menu-icon1_line-middle-dark"><div class="menu-icon1_line-middle-inner"></div></div><div data-element="burger-line" class="menu-icon1_line-bottom-dark"></div></div></div></div><div class="hide w-embed w-script"><style>
+  [data-nav] {
+    height: 6rem;
+    transition: height 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: height;
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.querySelector("[data-nav]");
+  const dropdowns = document.querySelectorAll("[data-nav-dropdown]");
+  if (!nav || dropdowns.length === 0) return;
+  let hoverCount = 0;
+  dropdowns.forEach(dropdown => {
+    dropdown.addEventListener("mouseenter", () => {
+      hoverCount++;
+      nav.style.height = "11rem";
+    });
+    dropdown.addEventListener("mouseleave", () => {
+      hoverCount--;
+      if (hoverCount === 0) {
+        nav.style.height = "6rem";
+      }
+    });
+  });
+});
+</script></div></div><div class="pop-up"><div class="hide w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  var popup = document.querySelector(".pop-up");
+  var wrapper = document.querySelector(".pop-up_wrapper");
+  var overlay = document.querySelector(".pop-up_overlay");
+  var closeBtn = document.querySelector(".close-icon-wrapper");
+  var openBtns = document.querySelectorAll('[pop-up="open"]');
+
+  // État initial : caché
+  gsap.set(popup, { display: "none" });
+  gsap.set(overlay, { opacity: 0 });
+  gsap.set(wrapper, { opacity: 0, y: 30, scale: 0.95 });
+
+  function openPopup() {
+    gsap.set(popup, { display: "flex" });
+    gsap.to(overlay, { opacity: 1, duration: 0.3, ease: "power2.out" });
+    gsap.to(wrapper, { opacity: 1, y: 0, scale: 1, duration: 0.4, ease: "power2.out", delay: 0.1 });
+  }
+
+  function closePopup() {
+    gsap.to(wrapper, { opacity: 0, y: 30, scale: 0.95, duration: 0.3, ease: "power2.in" });
+    gsap.to(overlay, {
+      opacity: 0, duration: 0.3, delay: 0.1, ease: "power2.in",
+      onComplete: function () { gsap.set(popup, { display: "none" }); }
+    });
+  }
+
+  openBtns.forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      openPopup();
+    });
+  });
+
+  closeBtn.addEventListener("click", closePopup);
+  overlay.addEventListener("click", closePopup);
+
+});
+</script></div><div class="pop-up_wrapper"><div class="close-icon-wrapper"><div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="white" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></div></div><div class="title-pop-up_wrapper"><div class="heading-style-h4">Follow what we’re building</div></div><div class="spacer-medium"></div><div class="form-wrapper w-form"><form id="wf-form-newsletter-form" name="wf-form-newsletter-form" data-name="newsletter-form" method="get" class="form-newsletter" data-wf-page-id="69d54d2d4802be9695ee8397" data-wf-element-id="13cf5806-12c5-1e35-ca37-c814ec7e1cc6"><div class="grid-2"><div class="input-wrapper"><label for="newsletter-email" class="txt-form">EMAIL ADDRESS</label><input class="form_input is-footer w-input" maxlength="256" name="email" data-name="email" placeholder="john@company.com" type="email" id="newsletter-email" required=""/></div><div class="input-wrapper"><label for="newsletter-first-name" class="txt-form">first name</label><input class="form_input is-footer w-input" maxlength="256" name="first-name" data-name="first-name" placeholder="John" type="text" id="newsletter-first-name" required=""/></div></div><div class="grid-2"><div class="input-wrapper"><label for="newsletter-company" class="txt-form">Company</label><input class="form_input is-footer w-input" maxlength="256" name="company" data-name="company" placeholder="Acme Inc." type="text" id="newsletter-company" required=""/></div><div class="input-wrapper"><label for="newsletter-interest" class="txt-form">your interest</label><select id="newsletter-interest" name="interest" data-name="interest" class="form_input is-footer w-select"><option value="">Select your interest</option><option value="Technical updates ">Technical updates </option><option value="Business &amp; partnerships ">Business &amp; partnerships </option><option value="Careers ">Careers </option><option value="General news">General news</option></select></div></div><label class="w-checkbox checkbox-field"><input type="checkbox" name="checkbox" id="checkbox" data-name="Checkbox" required="" class="w-checkbox-input checkbox-item"/><span class="text-size-tiny w-form-label" for="checkbox">By clicking Subscribe, I agree to receive updates from C12. <br/>For more information, see our <a href="/privacy-policy" class="link-yellow">Privacy Policy.</a></span></label><input type="submit" data-wait="Please wait..." id="Subscribe" class="button is-form-footer is-dark w-button" value="Stay updated"/></form><div class="success-message w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="error-message w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><div class="pop-up_overlay"></div></div><div class="main-wrapper"><section class="section_hero flex-top about"><div class="padding-global"><div class="container-medium padding-section-large"><div class="flex-v-left"><h1 class="heading-style-h1">A roadmap to useful fault-tolerant quantum computing</h1><div class="spacer-xlarge"></div><div class="text-size-xlarge max-width-road">Built for speed, scalability and real-world viability, enabled by advanced materials.</div><div class="spacer-huge"></div><div class="button-group is-road"><div class="button_line"><div button-text="line" class="btn_road"><a href="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e1f7cf0be6473e636bb60e_C12%20Product%20Roadmap.pdf" target="_blank" class="text_button-line dark">READ THE TECHNICAL OVERVIEW</a></div><div class="hover_line_button dark"></div></div></div></div></div></div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201.png" loading="eager" sizes="100vw" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d6e3b4098ff5e872898595_Shot_4.1_layered%201.png 1910w" alt="Handwritten physics and math notes with formulas, equations, and diagrams on lined paper." class="img_road"/><div class="fade_left about"></div></section><section class="section_cards hide"><div class="padding-global"><div class="container-large padding-section-medium"><div class="w-layout-grid grid_content"><div class="flex-v-left"><div class="container_title-30 is-26"><h2 class="heading-style-h2 text-color-yellow">Designed to scale in the real world</h2></div></div></div></div></div></section><section class="section_tab"><div class="padding-global"><div class="container-large padding-section-tab"><div data-current="Speed" data-easing="ease" data-duration-in="300" data-duration-out="100" class="container_tabs w-tabs"><div class="wrapper_tabs w-tab-menu"><a data-w-tab="Speed" class="tab w-inline-block w-tab-link w--current"><div class="txt-tab">Speed</div></a><a data-w-tab="Scalability" class="tab w-inline-block w-tab-link"><div class="txt-tab">Scalability</div></a><a data-w-tab="Real-word viability" class="tab w-inline-block w-tab-link"><div class="txt-tab">Real-world viability</div></a><a data-w-tab="Advanced materials" class="tab w-inline-block w-tab-link"><div class="txt-tab">Advanced materials</div></a></div><div class="w-tab-content"><div data-w-tab="Speed" class="content_tabs w-tab-pane w--tab-active"><div class="w-layout-grid grid_tabs"><div class="container_title-tabs"><div class="text-tabs">Fast qubit operations</div><div class="text-size-large height-140 text-color-white">C12’s carbon nanotube spin qubits support fast electronic gate operations without long qubit transport sequences or slow nearest-neighbor swap chains.</div></div><div class="container_video-tabs"><div data-poster-url="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_poster.0000000.jpg" data-video-urls="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_mp4.mp4,https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video_tabs w-background-video w-background-video-atom"><video id="97986753-a854-91fa-6537-f20be62dcdf3-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_mp4.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3cf769088b84e90397d0_Speed_webm.webm" data-wf-ignore="true"/></video></div><div class="shadow_tabs"></div><div class="shadow_tabs bottom"></div></div></div><div class="w-layout-grid grid_content-tabs"><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Fast gates</span><br/><br/>C12’s solid-state qubit supports speeds of tens of nanoseconds for physical single-qubit gates and hundreds of nanoseconds for physical two-qubit gates.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Negligible atom or electron movement</span><br/><br/>C12’s two-qubit gates don’t rely on physical atom movement, which dramatically slows trapped ion and neutral atom systems, or the shuttling of electrons across long distances, which slows many spin qubit approaches.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">All-to-all connectivity zones</span><br/><br/>C12’s quantum bus approach allows local all-to-all connectivity zones that support more efficient algorithms, quantum error correction codes, and gates that entangle many qubits at once.</div></div></div></div><div data-w-tab="Scalability" class="content_tabs w-tab-pane"><div class="w-layout-grid grid_tabs"><div class="container_title-tabs"><div class="text-tabs">Scalable architecture</div><div class="text-size-large height-140 text-color-white">C12 is built to compound across generations. Each system after Aïdôs is a modular unit that can be duplicated and integrated to create the next larger one.</div></div><div class="container_video-tabs"><div data-poster-url="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_poster.0000000.jpg" data-video-urls="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_mp4.mp4,https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video_tabs w-background-video w-background-video-atom"><video id="8e111cf6-678d-ea00-1c73-fdfff6af9ed3-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_mp4.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df75c128d300c1b43f3c6f_Scalability%20-%20compressed_webm.webm" data-wf-ignore="true"/></video></div><div class="shadow_tabs"></div><div class="shadow_tabs bottom"></div></div></div><div class="w-layout-grid grid_content-tabs"><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Chiplet-based 3D architecture</span><br/><br/>C12 is able to leverage modern semiconductor fabrication and 3D integration to support a modular, scalable approach.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><strong>Efficient error correction</strong><br/><br/>C12’s architecture supports supports multiple options for non-Clifford gates, such as magic state cultivation or code switching with transversal gates. The high connectivity of the architecture gives it future-proofing to exploit coming error correction advances.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><strong>Connectivity and parallelization</strong><br/><br/>The ability to adjust the all-to-all connectivity zone size from two qubits to a whole chiplet&#x27;s worth allows C12 to optimize the balance between connectivity and parallel operations.</div></div></div></div><div data-w-tab="Real-word viability" class="content_tabs w-tab-pane"><div class="w-layout-grid grid_tabs"><div class="container_title-tabs"><div class="text-tabs">Compact and deployable</div><div class="text-size-large height-140 text-color-white">Utility-scale quantum computing must remain energy-efficient and deployable. C12 targets sub-watt power per qubit and 6,000 qubits/m² within a single integrated system.</div></div><div class="container_video-tabs"><div data-poster-url="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_poster.0000000.jpg" data-video-urls="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_mp4.mp4,https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video_tabs w-background-video w-background-video-atom"><video id="e2d06132-f860-5aa8-958b-7df0d5587a89-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_mp4.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3d306000690c4d8ef88e_Real%20world%20Viability_webm.webm" data-wf-ignore="true"/></video></div><div class="shadow_tabs"></div><div class="shadow_tabs bottom"></div></div></div><div class="w-layout-grid grid_content-tabs"><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Reduced cooling requirement</span><br/><br/>Compared with superconducting qubits, C12’s spin qubits can be operated at temperatures an order of magnitude higher, which actually supports two orders of magnitude more cryoelectronics.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Small system footprint</span><br/><br/>More efficient control electronics and much smaller size than superconducting qubits allow C12 to target 100,000 physical qubits with only a single dilution refrigerator and a few server racks.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Helium-3 efficient</span><br/><br/>C12’s single-cryostat approach requires only a few tens of liters of helium-3, unlike approaches that distribute processing over many dilution refrigerators and may require a significant fraction of the world’s helium-3 reserves.</div></div></div></div><div data-w-tab="Advanced materials" class="content_tabs w-tab-pane"><div class="w-layout-grid grid_tabs"><div class="container_title-tabs"><div class="text-tabs">The material difference</div><div class="text-size-large height-140 text-color-white">Carbon nanotubes provide a near-ideal one-dimensional pathway for electrical signals, enabling uniform control, connectivity and reproducible scaling.</div></div><div class="container_video-tabs"><div data-poster-url="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_poster.0000000.jpg" data-video-urls="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_mp4.mp4,https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video_tabs w-background-video w-background-video-atom"><video id="c228ffdc-4448-dd97-f513-414edb62513d-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_mp4.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891%2F69df3e3ccfba50284deef980_Advanced%20materials%20%281%29_webm.webm" data-wf-ignore="true"/></video></div><div class="shadow_tabs"></div><div class="shadow_tabs bottom"></div></div></div><div class="w-layout-grid grid_content-tabs last"><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">High fidelity</span><br/><br/>Carbon nanotube based qubits maximize fidelity by offering the best noise isolation of any solid-state qubit, especially from nuclear spin noise thanks to its purified carbon-12 isotope.</div></div><div class="content_tabs-grid"><div class="text-size-regular text-color-white"><span class="text-weight-bold">Uniform qubit control</span><br/><br/>Carbon nanotube based qubits can be tuned at a ms scale to match each other, rather than impose a huge burden of custom timing and microwave frequencies specific to every qubit for every gate.</div></div></div></div></div></div><div class="hide w-embed w-script"><style>
+  .wrapper_tabs .tab {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 calc(100% - 0px);
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: none;
+  }
+  .wrapper_tabs .tab.w--current {
+    border-bottom-color: transparent !important;
+  }
+  .wrapper_tabs .tab.is-progressing {
+    background-size: 100% 2px;
+    transition: background-size 8s linear;
+  }
+  .wrapper_tabs .tab.is-active-static {
+    background-size: 100% 2px;
+    transition: none;
+  }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var DURATION = 8000;
+  var tabs = document.querySelectorAll('.wrapper_tabs .tab');
+  if (!tabs.length) return;
+
+  var currentIndex = 0;
+  var autoplayTimer = null;
+  var isAutoTriggered = false;
+  var isPaused = false;
+
+  function goToTab(index) {
+    tabs.forEach(function (t) {
+      t.classList.remove("is-progressing");
+      t.classList.remove("is-active-static");
+    });
+    isAutoTriggered = true;
+    tabs[index].click();
+    isAutoTriggered = false;
+    void tabs[index].offsetWidth;
+    tabs[index].classList.add("is-progressing");
+  }
+
+  function startAutoplay() {
+    if (isPaused) return;
+    goToTab(currentIndex);
+    autoplayTimer = setTimeout(function () {
+      currentIndex = (currentIndex + 1) % tabs.length;
+      startAutoplay();
+    }, DURATION);
+  }
+
+  function stopAutoplay(index) {
+    isPaused = true;
+    clearTimeout(autoplayTimer);
+    tabs.forEach(function (t) {
+      t.classList.remove("is-progressing");
+      t.classList.remove("is-active-static");
+    });
+    tabs[index].classList.add("is-active-static");
+  }
+
+  tabs.forEach(function (tab, i) {
+    tab.addEventListener("click", function () {
+      if (isAutoTriggered) return;
+      stopAutoplay(i);
+    });
+  });
+
+  startAutoplay();
+});
+</script></div></div></div></section><section class="section_tableau"><div class="padding-global"><div class="container-large padding-top-115"><div class="max-width-medium"><h2 class="heading-style-h2 text-color-yellow">The path to utility-scale quantum computing</h2></div><div class="spacer-large is-mobile custom"></div><div class="flex-h-right"><div class="wrapper_nav-scroll hide-desktop"><a data-nav="prev" href="#" class="nav-prev-tab w-inline-block"><div class="embed-100-tab w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 13 22" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+<path d="M11.4143 0.707031L1.41431 10.707L11.4143 20.707" stroke="currentColor" stroke-width="2"/>
+</svg></div></a><a data-nav="next" href="#" class="nav-next-tab w-inline-block"><div class="embed-100-tab w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 13 22" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+<path d="M0.707031 20.707L10.707 10.707L0.707031 0.707031" stroke="currentColor" stroke-width="2"/>
+</svg></div></a></div><div class="hide w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  var scrollContainer = document.querySelector(".container_tableau");
+  var prevBtn = document.querySelector(".nav-prev-tab");
+  var nextBtn = document.querySelector(".nav-next-tab");
+
+  if (!scrollContainer || !prevBtn || !nextBtn) return;
+
+  var SCROLL_AMOUNT = 200;
+
+  function updateArrows() {
+    var maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+    var current = scrollContainer.scrollLeft;
+
+    if (current <= 0) {
+      prevBtn.style.opacity = "0.3";
+      prevBtn.style.pointerEvents = "none";
+    } else {
+      prevBtn.style.opacity = "1";
+      prevBtn.style.pointerEvents = "auto";
+    }
+
+    if (current >= maxScroll - 1) {
+      nextBtn.style.opacity = "0.3";
+      nextBtn.style.pointerEvents = "none";
+    } else {
+      nextBtn.style.opacity = "1";
+      nextBtn.style.pointerEvents = "auto";
+    }
+  }
+
+  prevBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    scrollContainer.scrollBy({ left: -SCROLL_AMOUNT, behavior: "smooth" });
+  });
+
+  nextBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    scrollContainer.scrollBy({ left: SCROLL_AMOUNT, behavior: "smooth" });
+  });
+
+  scrollContainer.addEventListener("scroll", updateArrows);
+  window.addEventListener("resize", updateArrows);
+  updateArrows();
+
+});
+</script></div></div><div class="spacer-medium"></div><div id="tableau" class="is-relative"><div class="container_tableau"><div class="col-1"><div class="annee_tableau custom-left"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-3200.png 3200w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png 3403w" alt="" class="image_logo-tableau-c12"/></div><div class="container_shape-tableau opacity-0"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-3200.png 3200w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png 3403w" alt="" class="image_logo-tableau"/><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59ffe8158d7f16b97cee5_Group%201110.svg" loading="lazy" alt="" class="image_shape-tableau"/></div></div><div class="wrapper_text-tableau"><div class="is-text-relative">Logical qubits</div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><div class="is-text-relative">Physical qubits</div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><div class="is-text-relative">Logical<br/>error rate</div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><div class="is-text-relative">Watts per <br/>physical qubit</div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><div class="is-text-relative">Qubits per<br/>square meter</div><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div><div class="wrapper_text-tableau"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5add630de5220d09cb4bd_Frame%201216.svg" loading="lazy" alt="" class="image_text-tableau"/></div></div><div data-col="aidos" class="col-2"><div data-col-hover="item" data-col="1" class="annee_tableau"><div>2027</div></div><div data-col-hover="item" data-col="1" class="container_shape-tableau"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59f626657617dbbb42f0f_Group%201133.svg" loading="lazy" alt="" class="image_logo-tableau"/><div class="is-relative"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59ffe8158d7f16b97cee5_Group%201110.svg" loading="lazy" data-col-image="default" data-col="1" alt="" class="image_shape-tableau"/><img class="image_shape-tableau is-hover" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1).png" alt="" data-col-image="hover" sizes="100vw" loading="lazy" data-col="1" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1).png 3840w"/></div></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau"><div class="is-text-relative">1</div><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau"><div class="is-text-relative">16</div><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau"><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div><div class="is-text-relative">10<sup>-3</sup></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau"><div class="is-text-relative">1,500</div><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau"><div class="is-text-relative">1.4</div><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="1" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="hover" data-col="1" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="1" data-col-hide="true" class="shape_text-tabelau"></div></div></div><div data-col="zelos" class="col-3"><div data-col-hover="item" data-col="2" class="annee_tableau"><div>2030</div></div><div data-col-hover="item" data-col="2" class="container_shape-tableau"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e0f56b21639d0058495f_Group%201135.svg" loading="lazy" alt="" class="image_logo-tableau"/><div class="is-relative"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59ffe8158d7f16b97cee5_Group%201110.svg" loading="lazy" data-col-image="default" data-col="2" alt="" class="image_shape-tableau"/><img class="image_shape-tableau is-hover" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205.png" alt="" data-col-image="hover" sizes="100vw" loading="lazy" data-col="2" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f7fc1638a9b2c20ec13_Shot_2.1%205.png 3876w"/></div></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau"><div class="is-text-relative">8</div><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau"><div class="is-text-relative">236</div><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau"><div class="is-text-relative">10<sup>-5</sup></div><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau"><div class="is-text-relative">100</div><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau"><div class="is-text-relative">21</div><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="2" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="hover" data-col="2" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="2" data-col-hide="true" class="shape_text-tabelau"></div></div></div><div data-col="styx" class="col-4"><div data-col-hover="item" data-col="3" class="annee_tableau"><div>2032</div></div><div data-col-hover="item" data-col="3" class="container_shape-tableau"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e9f0a7486de1fc9d0315_Group%201137.svg" loading="lazy" alt="" class="image_logo-tableau"/><div class="is-relative"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e3f6675d7ab5294cdf9c_Group%201108.svg" loading="lazy" data-col-image="default" data-col="3" alt="" class="image_shape-tableau"/><img class="image_shape-tableau is-hover" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204.png" alt="" data-col-image="hover" sizes="100vw" loading="lazy" data-col="3" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204-p-3200.png 3200w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f80fcd2341cef80fae7_Shot_3.1%204.png 5760w"/></div></div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau"><div class="is-text-relative">128+</div><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau"><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div><div class="is-text-relative">8,500</div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau"><div class="is-text-relative">10<sup>-6</sup></div><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau"><div class="is-text-relative">6</div><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau"><div class="is-text-relative">500</div><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="3" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="hover" data-col="3" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="3" data-col-hide="true" class="shape_text-tabelau"></div></div></div><div data-col="panopeia" class="col-5"><div data-col-hover="item" data-col="4" class="annee_tableau"><div>2033</div></div><div data-col-hover="item" data-col="4" class="container_shape-tableau"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e9f091042cca8cacc977_Group%201138.svg" loading="lazy" alt="" class="image_logo-tableau"/><div class="is-relative"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e3f765f07505be42e393_Group%201107.svg" loading="lazy" data-col-image="default" data-col="4" alt="" class="image_shape-tableau"/><img class="image_shape-tableau is-hover" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206.png" alt="" data-col-image="hover" sizes="100vw" loading="lazy" data-col="4" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206-p-3200.png 3200w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d72f8037e9918452f7f19a_Shot_4.1%206.png 5760w"/></div></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau"><div class="is-text-relative">792+</div><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau"><div class="is-text-relative">100,000</div><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau"><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div><div class="is-text-relative">10<sup>-7</sup></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau"><div class="is-text-relative">0.5</div><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau"><div class="is-text-relative">6,000</div><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div><div data-col-hover="hover" data-col="4" class="wrapper_numero-tableau is-vide hide-tablet"><div data-col="4" data-col-hide="true" class="shape_text-tabelau"></div></div></div><div class="col-6 hide-mobile-landscape"><div data-col-hover="item" data-col="4" class="annee_tableau opacity-0"><div>2033</div></div><div data-col-hover="item" data-col="4" class="container_shape-tableau opacity-0"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59f626657617dbbb42f0f_Group%201133.svg" loading="lazy" alt="" class="image_logo-tableau"/><div class="is-relative"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e3f765f07505be42e393_Group%201107.svg" loading="lazy" data-col-image="default" data-col="4" alt="" class="image_shape-tableau"/><img class="image_shape-tableau is-hover" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1).png" alt="" data-col-image="hover" sizes="(max-width: 767px) 100vw, 240px" loading="lazy" data-col="4" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1)-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5cbd5bf1ed151a58e2e11_3934b9c6230d026adddfbff66a523a1a6987831b%20(1).png 3840w"/></div></div></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2 hide-tablet"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div data-col-hover="item" data-col="4" class="wrapper_numero-tableau is-vide-2 hide-tablet"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d5e55fa714d5d351a391d9_Frame%201216%20(2).svg" loading="lazy" alt="" class="image-100"/></div><div class="shape-col6 hide-mobile-landscape"></div></div><div class="shape_white is-2 hide-tablet"></div><div class="shape_white hide-tablet"></div><div class="shape-top"></div><div class="text-absolute hide-tablet">Logical error rate applies to Clifford gates.<br/>On-premise delivery within 12 months of first demonstration system.</div></div><div class="col-1 is-mobile"><div class="annee_tableau custom-left"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png" loading="lazy" sizes="100vw" srcset="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-500.png 500w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-800.png 800w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1080.png 1080w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-1600.png 1600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2000.png 2000w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-2600.png 2600w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB-p-3200.png 3200w, https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d7ad07d3501d80137013_C12%20Logo%20Gold%20Gradient%20RGB.png 3403w" alt="" class="image_logo-tableau-c12"/></div><div class="container_shape-tableau opacity-0 is-mobile"><div class="flex-v-top is-center gap-40"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59f626657617dbbb42f0f_Group%201133.svg" loading="lazy" alt="" class="image_logo-tableau opacity-0"/><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d59ffe8158d7f16b97cee5_Group%201110.svg" loading="lazy" alt="" class="image_shape-tableau opacity-0"/></div></div><div class="wrapper_text-tableau is-mobile"><div class="is-text-relative is-mobile">Logical qubits</div></div><div class="wrapper_text-tableau is-mobile"><div class="is-text-relative">Physical qubits</div></div><div class="wrapper_text-tableau is-mobile"><div class="is-text-relative">Logical<br/>error rate</div></div><div class="wrapper_text-tableau is-mobile"><div class="is-text-relative">Watts per <br/>physical qubit</div></div><div class="wrapper_text-tableau is-mobile"><div class="is-text-relative">Qubits per<br/>square meter</div></div><div class="wrapper_text-tableau is-mobile hide-tablet"></div><div class="wrapper_text-tableau is-mobile hide-tablet"></div><div class="shape_white is-2"></div><div class="shape_white"></div></div><div class="text-absolute">Logical error rate applies to Clifford gates.<br/>On-premise delivery within 12 months of first demonstration system.</div></div><div class="spacer-large"></div><div class="container_roasd"><div class="text-size-large text-weight-medium text-color-yellow">Making this roadmap possible</div><div class="flex-v-left gap-20"><div class="text-size-regular height-130">Explore the architecture and system design that make scaling, speed, and real-world viability possible</div><div class="button-group is-road"><div class="button_line"><div button-text="line" class="btn_road"><a href="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e1f7cf0be6473e636bb60e_C12%20Product%20Roadmap.pdf" target="_blank" class="text_button-line dark">READ THE TECHNICAL OVERVIEW</a></div><div class="hover_line_button dark"></div></div></div></div></div><div class="spacer-large is-mobile"></div></div></div><div class="shape-section-tableau"></div></section><section class="section_scroll hide-tablet"><div class="padding-global"><div class="container-large padding-section-medium"><div id="roadmap-scroll" class="roadmap-scroll"><div id="roadmap" class="roadmap-sticky"><div data-step="aidos" class="container_infos"><div class="container_desc-yellow"><div><strong>Aïdôs</strong>, the Greek goddess of humility. A single logical qubit, but unlike any before it.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">First logical operations</div><div class="text-scroll-regular">Aïdôs marks C12’s introduction of foundational quantum error correction on a compact, next-generation solid-state architecture using spin qubits.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">First logical operations</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">16 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">1 logical qubit</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻³ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Universal physical gate set</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Sub-μs gate speed</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Long-distance resonator couplers</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cloud-accessible system</div></div></div></div></div><div data-title="aidos" class="name_absolute"><div class="text-size-large text-color-yellow text-weight-medium">Aïdôs</div><div class="date_scroll"><div>2027</div></div></div><div class="container_bullet"><div data-bullet="0" class="bullet"></div><div data-bullet="1" class="bullet"></div><div data-bullet="2" class="bullet"></div><div data-bullet="3" class="bullet"></div></div><div class="chiplet-canvas w-embed"><div id="chiplet-wrapper" style="position:relative;width:100%;aspect-ratio:1708/962;overflow:hidden;">
+  <img id="chiplet-pillar" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69df56ed8a845b77bd1f88d9_C12_PIllar-1354x760px.png" />
+  <canvas id="chiplet-canvas"></canvas>
+</div>
+
+<style>
+  #chiplet-pillar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+    height: auto;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.35;
+    bottom: 2%;
+  }
+  #chiplet-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  @media (min-width: 1440px) {
+    #chiplet-pillar { bottom: 5%; width: 50%; }
+  }
+  @media (min-width: 1720px) {
+    #chiplet-pillar { bottom: 8%; width: 45%; }
+  }
+  @media (min-width: 1920px) {
+    #chiplet-pillar { bottom: 10%; width: 42%; }
+  }
+</style></div><div data-step="zelos" class="container_infos is-absolute"><div class="container_desc-yellow"><div><span class="text-weight-bold">Zélos</span>, the embodiment of ambition and pursuit of excellence, mirrors the drive to scale quantum systems with fidelity and control.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">Modular architecture begins</div><div class="text-scroll-regular">Zélos introduces a chiplet-based architecture designed for replication and system-level scaling. This is when modular integration becomes central.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">236 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">8 logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10<sup>-5</sup> logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Modular chiplet packaging</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cryoelectronics</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">All-digital control signals</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">On-chip qubit bias array</div></div></div></div></div><div data-title="zelos" class="name_absolute"><div class="text-size-large text-color-yellow text-weight-medium">Zélos</div><div class="date_scroll"><div>2030</div></div></div><div data-title="styx" class="name_absolute"><div class="text-size-large text-color-yellow text-weight-medium">Styx</div><div class="date_scroll"><div>2032</div></div></div><div data-title="panopeia" class="name_absolute"><div class="text-size-large text-color-yellow text-weight-medium">Panopeia</div><div class="date_scroll"><div>2033</div></div></div><div data-step="styx" class="container_infos is-absolute"><div class="container_desc-yellow"><div><strong>Styx</strong>, the goddess and river dividing life from death, represents the threshold to quantum advantage, when quantum hardware becomes truly resilient.<br/></div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">Scaling through replication</div><div class="text-scroll-regular">Styx combines many Zélos chiplets via inter-chiplet coupling, significantly increasing logical performance while improving efficiency.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">8,500 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">128+ logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻⁶ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Multi-chiplet module</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Major increase in power efficiency per qubit</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Chiplet-chiplet couplers</div></div></div></div></div><div data-step="panopeia" class="container_infos is-absolute"><div class="container_desc-yellow"><div><strong>Panopeia,</strong> &quot;she who sees everything&quot;, is the moment we reach universal quantum computing.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">Integrated utility-scale system</div><div class="text-scroll-regular">Panopeia combines Styx modules to complete the transition to an integrated, deployable quantum system capable of sustained logical computation.</div></div><div class="spacer-xlarge"></div><div class="flex-v-top gap-20 width-100"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">100,000 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">792+ logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻⁷ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Multi-module platform</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cross-module couplers</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Sub-watt power per qubit at scale</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">High qubit count, still within a single cryostat</div></div></div></div></div></div></div></div></div><div class="hide w-embed w-script"><canvas id="chiplet-canvas" style="width:100%;height:auto;aspect-ratio:1708/962;display:block;"></canvas>
+<script>
+window.FRAME_URLS_A = [
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92f06fb18e88bb7fd1_000.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc921666597fd1e03e87_001.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92adb9418e04607132_002.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92636aba36c96a8789_003.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92a2310d67bcc73685_004.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc923c9e8e8abe01480b_005.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc924ce873b0f90c96c9_006.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92b52d467108800d88_007.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc922b7ed49ac648050f_008.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc92a79a50ab94748fd4_009.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93025be27c5b37b475_010.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93e4d8e68010153f6f_011.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc932795baeedfee6a20_012.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93fafed98dceb0cf01_013.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93d0a97be54aecde26_014.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93828df88af0d778b1_015.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9308515add56b7d58e_016.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc93a79a50ab94748fe8_017.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9490b895c4285afbaf_018.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94ce70b2b5e47bdf79_019.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94ca7d367332e568ea_020.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94a95380325888319f_021.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94bdde2f52dab43029_022.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94def24e73126ad4a4_023.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc940cf61c76c4eaa076_024.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94828df88af0d778c5_025.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc940c82742b2b4206d7_026.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc943b8f00c692ddc8a5_027.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97adb9418e0460717b_028.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9761ba8ee33d9a572d_029.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc971afe96a77b62cc92_030.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc972d6f969a6ecf8aa2_031.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc978f7b4321cffa06f8_032.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97c3930f3dab9a734a_033.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97ca7d367332e56921_034.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97e737ad6b6c2bbc69_035.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97f5a42b72d07e679d_036.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc972324f477a3dfd7b8_037.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9596375901015bade9_038.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc950cf61c76c4eaa08d_039.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc968f8f3fb263f6dd68_040.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96a99a91caa67bc9bd_041.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96ca7d367332e568ff_042.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96869fa8302b3e2af1_043.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9617dd62eb316c181e_044.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96764c263c8bf1d05a_045.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9723d4bc28eb4a7ac7_046.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97def6807d8b1f2658_047.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc972d2ecbfc47eccfb7_048.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc94dad4106df477f022_049.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9499221c59c4ba5074_050.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9545bc9696738805b4_051.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95cb2df0a1f32e6b36_052.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95828df88af0d778da_053.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95dd1faa5194c1c644_054.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc956a7b254566dc7f00_055.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96a5ec3532973986bf_056.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc953cc2ddea86b52167_057.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95a9538032588831b3_058.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95b28ca0f377432725_059.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc952d0348a7742e8bd6_060.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95ab11ba8aa9143a4e_061.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9500268de4cbf41f24_062.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc952fd3187d9947d572_063.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc956ebde139c53d40fd_064.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95db9aa6f8bca266db_065.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96e737ad6b6c2baef9_066.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95025be27c5b37b489_067.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc951128f7b8970f16db_068.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc95c197a1d549af3533_069.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc958c910507a5de00a6_070.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc950b019389bfb0b3c3_071.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97eaba95ada6ff66af_072.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc96ba7386e400807296_073.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc974029f1798ead2c30_074.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9794d054e93f5e3165_075.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc973c0d3e7c071b109b_076.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97e75b29e62e337796_077.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc971666597fd1e03ec2_078.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97b2b46fa58a266517_079.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97e9ca72337c9b32b1_080.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97b06ee50692a7cdbc_081.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97b5f59779f79dbd13_082.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97db4110c5ac68a205_083.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97153934360d03dfbb_084.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9796a6ae9f4f52ecb8_085.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc977bbdac52bb4f96dc_086.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc977bbdac52bb4f96d9_087.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc971a5803b6b10cf8da_088.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9714e9e11254613e84_089.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97a5dacce52f320704_090.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc976193f610ba0f7ecc_091.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc971dfbdd3bd86092a4_092.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc973409fa5acc87d874_093.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97f38017d296aa18c3_094.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98db9aa6f8bca266f6_095.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9786e84e0e511acfb7_096.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc974bebd27b08094636_097.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97c197a1d549af35a0_098.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc97906ca414dbcb7470_099.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98e4d8e68010153f97_100.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9808506469c1137c90_101.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc988d3c5ca47d383030_102.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98b76439c75981bffa_103.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98c960ee4fc7b5d519_104.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc981f003325a19ae583_105.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9804f3dce1bf240fad_106.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc980528f685ddee7070_107.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98ab11ba8aa9143a83_108.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98ea3d6b9de5a5ed41_109.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98737df0249ccb6c4c_110.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc980940702b70beb4ba_111.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc982d2ecbfc47eccfcb_112.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc980cf61c76c4eaa0a9_113.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc982b4a1ada2cf91331_114.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9890eb643e4f5f7aed_115.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc987b8089cc7fcf8770_116.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9880fd90fb16360a78_117.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc987755a84858060bd6_118.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98e737ad6b6c2bbc7d_119.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc982acb356d358e72c6_120.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98636aba36c96a94c0_121.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc982e11072f303e7302_122.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98e534894fe0131c57_123.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98724dd9cc50a2bc57_124.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98d6bdb74e93df5ef4_125.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc981f003325a19ae597_126.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98dc39cfacf5ad8803_127.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9810aa143cd17bf74b_128.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc98e48db6bbbf023b59_129.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99a3d913af78485d75_130.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99ae922888481ad9cb_131.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99388d9772f9460b04_132.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99ddc4624d5254eae3_133.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc996ca698eabac45d55_134.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99a99a91caa67bc9d6_135.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc993409fa5acc87e5d7_136.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9915ad4030873418d9_137.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99364ad692cf5aa59e_138.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc996193f610ba0f7ee0_139.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99d514865cc577a9f5_140.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99532df3e5b963e470_141.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99acd208e14c850f1e_142.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9926bfc4acc4380af7_143.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9933bb88b8f1132f58_144.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc997faaadf09bdf6d69_145.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99a9538032588831c7_146.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf06fb18e88bb8025_147.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9997e5fa8cc6a733e3_148.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc990417f04c76635586_149.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9acc03c6e8def7a20e_150.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99f5a90b31b7a50b35_151.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99def24e73126ad4bd_152.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99f85e7ef9534b7fc7_153.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf96dbb7e495e3e77_154.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc990940702b70beb4d0_155.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc99ce70b2b5e47becf5_156.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b5270b79612041716_157.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bb28ca0f3774334a4_158.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9912ec3cf5d3f12f8e_159.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9aad689b7c5a5ec628_160.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc998937cdf1235458e5_161.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf5a42b72d07e67b2_162.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9a869fa8302b3e2b1e_163.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9a90b895c4285afc74_164.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9afa786a73027b9b84_165.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9a0bbbee5007871a7c_166.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9a39478726ea88bfad_167.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b7755a84858060c04_168.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b45bc9696738813d6_169.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b0b019389bfb0b3da_170.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bfd3f818cc9dc3e02_171.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b5270b79612041742_172.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c80fd90fb16360a96_173.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b58fbce29fce26209_174.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b99221c59c4ba50bd_175.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf5a90b31b7a50b49_176.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b1666597fd1e03eda_177.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b4ce873b0f90c96fd_178.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca153c7943ec4b83427_179.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bc699fe80d59cd695_180.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b1a5803b6b10cf925_181.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9beebb641d4e5afe86_182.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b156293d551c99478_183.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf0af6fa3805573c8_184.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9bf61a2c16e7d5b3b3_185.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b2795baeedfee84c6_186.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b0d34beb3b0496852_187.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b828df88af0d77915_188.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b0d0fbbfc65dd2115_189.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9cf32ba17229fadd90_190.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c1d72a2b0684202d6_191.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b60acb16a6dcb4f08_192.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c6a7b254566dc7f51_193.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c29f4db40fa3565e1_194.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b85efede3521f45b7_195.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9be75b29e62e3377ac_196.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9ce589780bb8a61f03_197.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9beaba95ada6ff66c4_198.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9cbd015c4a28887fe8_199.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9b1f121aa18b7b116c_200.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c3fb4fd75577cbfd6_201.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9cca32fb49daa76b89_202.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c2324f477a3dfd7db_203.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9ce8a4ae55f292da34_204.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c08515add56b7d5f4_205.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9cdb9aa6f8bca26721_206.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9e83b1641a62a644df_207.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9e5931b223dc4b0cf2_208.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9ed4ffa0c9ebb5c243_209.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bcaa761548fe4c8e696c_210.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca10cf61c76c4eaa16e_211.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1f38017d296aa2637_212.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69dbcc6bb78d16897eb2335c_213.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bcaa9af17c4e6a852931_214.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca045bc9696738813f1_215.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1b52d467108800e58_216.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bcaa5b70982e0c9a76e3_217.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca17813a9362b3cc362_218.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca114e9e11254613ebb_219.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9ca99a91caa67bca1d_220.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca16ca698eabac45daa_221.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca12b4a1ada2cf91371_222.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c9af17c4e6a85285e_223.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca14c23220743f5a3a1_224.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9cdad4106df477f046_225.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca18f8f3fb263f6ddb0_226.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca12d2ecbfc47ecd031_227.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1a3d913af78486b0e_228.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1d514865cc577aa1e_229.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca11facc272db361717_230.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca10b1e8db27f5ea9a4_231.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9ce589780bb8a61f17_232.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1869fa8302b3e2b92_233.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c7606d9d3a3f03ccc_234.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1acfbd7b830c56a7f_235.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca1ef611ebdb06ac5f7_236.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bca100268de4cbf41f8d_237.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c0bbbee5007871a90_238.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9bc9c3f4c8252209663ad_239.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517761548fe4c8d7aa1_240.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517c197a1d549ae4232_241.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517025be27c5b36c5b7_242.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5179893e1f201569f59_243.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51783b1641a62a4f9c5_244.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517c9bda8040bb1ae9a_245.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51790b895c42859de4d_246.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517c399cc57f7bc811f_247.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a518679754764b9d185c_248.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a517b50b9e3486c9ba48_249.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5183409fa5acc86d5e0_250.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5188981e5219e36a354_251.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5186d0f9c30f5b6e204_252.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5198d25fe61d11598cb_253.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a519026adbbf1ef06853_254.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5194c23220743f48d4a_255.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5190b8d80ac27534343_256.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a6a7b254566db7929_257.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5190b019389bfafd4f2_258.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a519a5dacce52f310ea7_259.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a519c399cc57f7bc813f_260.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a18e12a93e6445a8b_261.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51af50498d275e0b543_262.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a66d293ddbe340b19_263.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a0417f04c766260cc_264.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51b2fd3187d994669d8_265.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a96375901015abd39_266.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51b026adbbf1ef06868_267.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51be534894fe0122428_268.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51be56154732c8ae5a1_269.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cc86fb98176e413d6_270.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5198fdb6a140aa8afa7_271.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a519c9bda8040bb1aebe_272.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a32f81a545197e05b_273.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51c95ff1e84c2f806eb_274.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cc86fb98176e413da_275.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a60acb16a6dca223a_276.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a00268de4cbf3464b_277.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51aaf39735f479b1d0b_278.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a29f4db40fa338e1e_279.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51adac08ce6d3ffa49c_280.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a07fb55a4cc9c75d1_281.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a532df3e5b962a213_282.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51c85efede3521e52ea_283.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51add1faa5194c0c9b7_284.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51be12f117225e99894_285.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51b0d14732fe24da132_286.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cddc4624d5253cb90_287.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d44249054ef115f1d_288.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cf5a90b31b7a409d6_289.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d86e84e0e511a043b_290.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ca9538032588747fa_291.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cdad4106df477052e_292.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d4499d9a090804fc5_293.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d95ff1e84c2f8072f_294.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d96375901015abd5a_295.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ed4dca3c1d4ea107e_296.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d4499d9a090804fe6_297.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ee2a89edea949d8b5_298.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ef50eae04e9527766_299.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e3320be870fcf49c7_300.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d66d293ddbe340b42_301.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ebd18083e7d117cec_302.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ef580eb1d26cb3fbf_303.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51efa3c56cda57d8778_304.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e33bb88b8f1124c83_305.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ee589780bb8a52f8a_306.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e9205d175c6801599_307.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51df0af6fa380548bad_308.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cd7e1de45dae86593_309.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51dad689b7c5a5decf3_310.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cf9a5b9cbf9147c50_311.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d8f093cb0fd10c56b_312.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51d45bc96967387031d_313.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ca5dacce52f310ec1_314.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51be2a89edea949d89a_315.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51dc3930f3dab995e85_316.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cbdde2f52dab310eb_317.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51c1eb1fd454639c3d7_318.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cf06fb18e88ba89cd_319.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51df1c7c57b2b2c099d_320.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51cc399cc57f7bc8157_321.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a70f29f9db0da8007_322.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51aab426de1c54e4819_323.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51a724dd9cc50a1c449_324.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a518441a84c9978bc3e1_325.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a518fa3c56cda57d8704_326.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5173b8f00c692dce3c2_327.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51932b361c41ea49a71_328.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5180528f685dded889f_329.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a518dad4106df47704fc_330.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a518588190b384787beb_331.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5186218d3a0f818d64f_332.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ac470795914012085_333.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51926c243b5f8f2bc57_334.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ba5ec35329738766e_335.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51b5b70982e0c999551_336.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51b1c1be2910f44befe_337.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51c7c7e9d162fbd981a_338.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51c7813a9362b3b8c46_339.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51efef7d7f4cccc6d23_340.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ee589780bb8a52f9e_341.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e7813a9362b3b949c_342.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e9893e1f201569fcc_343.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e6556d3bd19c5a8f9_344.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e2fd3187d994669f6_345.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51e45bc969673870331_346.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51f08515add56b6dfdb_347.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ffa786a73027aae58_348.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51faf502d041f94b722_349.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51fce70b2b5e47af23a_350.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ff5c9624549fc6b97_351.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51fa99a91caa67acbcf_352.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51fe534894fe0122461_353.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51fdfa6dba0c41b05b6_354.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51ffd5bf13839dfc43e_355.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51fad689b7c5a5ded23_356.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51f08515add56b6dfef_357.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51f8f093cb0fd10c59a_358.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a51facd208e14c841c52_359.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52018173e8160386980_360.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52003049946273e65be_361.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a520e56154732c8ae5d9_362.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5202e11072f303d9c47_363.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52096375901015abd74_364.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5209af17c4e6a84067a_365.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a520724dd9cc50a1c468_366.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5200528f685dded88c3_367.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52032f81a545197e080_368.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52032b361c41ea49aee_369.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5200bbbee5007863ba9_370.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5202bddce4f06dbd52d_371.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a520e48db6bbbf011e30_372.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52097c597747273eb38_373.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5202324f477a3ded5a9_374.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52096a6ae9f4f51eb12_375.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52025425b6caff57039_376.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a521f32ba17229f9c9e5_377.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5213409fa5acc86d61f_378.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5210d0fbbfc65dc1f8d_379.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5212b7ed49ac6471178_380.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5217813a9362b3b94e2_381.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5212bddce4f06dbd541_382.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5211f121aa18b79b015_383.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5212fd3187d99466e94_384.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5218d3c5ca47d3724ef_385.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a521816f570a7b1addd7_386.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5212bddce4f06dbd555_387.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5210d34beb3b0488630_388.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5217654070471fed675_389.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a522eebb641d4e5a22b0_390.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5220b8d80ac275343a6_391.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a522153934360d02ba48_392.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5227b8089cc7fce9bc0_393.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a522c197a1d549ae42ac_394.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a522da2c438002bb7bec_395.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52290b895c42859e273_396.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5228f8f3fb263f5fd6c_397.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5223b8f00c692dce8dd_398.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5222ba750a1ce5c7d1d_399.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523ab11ba8aa9133b3e_400.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523acfbd7b830c47bce_401.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523a912698fb55db6f2_402.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52367dfb880df9db8a4_403.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5233f4c825220953bf2_404.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523fd3f818cc9db44cb_405.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523a953803258874c7f_406.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5233ea84510e18f27df_407.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5239fe89107649ab1a2_408.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523dfa6dba0c41b061e_409.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52397c597747273eb7f_410.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523c91ee43173867f05_411.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523db4110c5ac675960_412.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5230528f685dded891e_413.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a524025be27c5b36cae9_414.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a524db9aa6f8bca1796a_415.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5240bbbee5007863bdd_416.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52312ec3cf5d3f05593_417.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a523bd18083e7d117d10_418.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5243618d9af89d63483_419.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52439478726ea870bba_420.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52433bb88b8f1124cb6_421.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a524a0bbdae5b93ff76f_422.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5248d3c5ca47d37250b_423.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a524a99a91caa67ad120_424.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5242f0a489d54ad50d7_425.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5248f8f3fb263f5fd9f_426.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a524f580eb1d26cb4019_427.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5246baf8398a95481ec_428.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5243fb4fd75577bc7da_429.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a525c86fb98176e41452_430.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5254c23220743f492f9_431.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a525c960ee4fc7b4f052_432.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52585efede3521e5336_433.png"
+];
+</script></div><div class="hide w-embed w-script"><script>
+window.FRAME_URLS_B = [
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5258fd3d72a7b0d023f_434.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5254029f1798eabf1c1_435.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a525fd3f818cc9db453a_436.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5257606d9d3a3ef776a_437.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5252d6f969a6ece98a6_438.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5253cc2ddea86b42383_439.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a525761548fe4c8d7aff_440.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a525db9aa6f8bca1797e_441.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52599221c59c4b96ca3_442.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a526e12f117225e998d6_443.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52626c243b5f8f2bce3_444.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a526a99a91caa67ad14f_445.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52626c243b5f8f2bce0_446.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5268f093cb0fd10c5ed_447.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5266ebde139c53c4939_448.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a526bd18083e7d117d41_449.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52601b3f8e72da50d5a_450.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52626bfc4acc4371d9c_451.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5261128f7b8970df134_452.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527c4707959140120dd_453.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527588190b384787caa_454.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5273b570f61c50d7005_455.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527eebb641d4e5a22ec_456.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527679754764b9d19b9_457.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52780fd90fb1634e7ec_458.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527adb9418e045f7e36_459.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52735dd20fad76fa60c_460.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52747d9839df2bea2a5_461.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5278f7b4321cff908d3_462.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5279fe89107649ab1dd_463.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52782e6853c2af92a90_464.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527d4dca3c1d4ea1542_465.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527761548fe4c8d7b13_466.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52790b895c42859e295_467.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5271a5803b6b10c0a2a_468.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527b62f954da4586c6e_469.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5278d3c5ca47d37255d_470.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527fef7d7f4cccc6d70_471.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a527102c558e5cd638c9_472.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5287c7e9d162fbd9c7c_473.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52866d293ddbe340b87_474.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5283618d9af89d63aab_475.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528adb9418e045f7e78_476.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528ab426de1c54e486c_477.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528fa3c56cda57d8803_478.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52815a2ff189f31603a_479.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52861ba8ee33d99385d_480.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528e2a89edea949dde0_481.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528156293d551c8aeca_482.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529dad4106df47705b8_483.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52826bfc4acc4371dc3_484.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5281c1be2910f44bf86_485.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52880fd90fb1634e800_486.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528388d9772f945023b_487.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a528b50b9e3486c9c063_488.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529def24e731269ec2c_489.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5288937cdf1235377fa_490.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52826bfc4acc4371dd7_491.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529ef611ebdb0692830_492.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529c197a1d549ae4353_493.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529e737ad6b6c2a95d0_494.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52a8e5b8a7c906a0d37_495.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529fdcf03776b1b06d7_496.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ae75b29e62e325e4e_497.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529db9aa6f8bca179bb_498.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52a7c250cc3a2b41626_499.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52915ad40308733569b_500.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a529d088c1530f65d60c_501.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5290b8d80ac275343d8_502.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b32f81a545197e0fb_503.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b7c250cc3a2b4163a_504.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b2b4a1ada2cf80c5c_505.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b67dfb880df9dbdf7_506.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bba7386e4007eeb07_507.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b8981e5219e36a86d_508.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b388d9772f945027e_509.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b156293d551c8af10_510.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b9893e1f20156aaa5_511.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b828df88af0d69cac_512.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bdef24e731269ec40_513.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bee1b9d49ae1e940f_514.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b8d25fe61d115991b_515.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bdef6807d8b1e2506_516.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b10aa143cd17b05cf_517.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b679754764b9d1f9f_518.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b4029f1798eabf208_519.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bf9a5b9cbf91486dc_520.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52be9ca72337c9a2e5a_521.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b5270b7961202ed6f_522.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bb2b46fa58a258b32_523.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bda2c438002bb7c70_524.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bbdde2f52dab31148_525.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b44249054ef11645b_526.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b7dda5db7b66bef7e_527.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bb984fb0dc4c6e6ec_528.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b9af17c4e6a840c5d_529.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b32b361c41ea49b19_530.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bc91ee43173867f49_531.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b8e5b8a7c906a0d4b_532.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b7654070471fed6b7_533.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c8f093cb0fd10c686_534.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52be75b29e62e325e62_535.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bfd5bf13839dfc4c0_536.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b85efede3521e5360_537.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b49501de2d89ed57e_538.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bfd3f818cc9db455f_539.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b1cb799b9988c979c_540.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b60acb16a6dca3119_541.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bf9a5b9cbf91486f0_542.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bd7e1de45dae86662_543.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ba99a91caa67ad17f_544.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52b97c597747273ec10_545.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bf85e7ef9534a91c6_546.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52bf06fb18e88ba8a5a_547.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c26bfc4acc4371e0c_548.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c2d2ecbfc47ea62fb_549.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c8fd3d72a7b0d0285_550.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c828df88af0d69cdd_551.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c737df0249cca8cc0_552.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c15ad4030873356c5_553.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52cbd18083e7d117d94_554.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52cfef7d7f4cccc6d94_555.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52cc960ee4fc7b4f0af_556.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c03049946273e6748_557.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c2b4a1ada2cf80c7a_558.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52cf96dbb7e495d34b3_559.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ceebb641d4e5a2323_560.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c07e169d0e8460e57_561.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52c6ebde139c53c4973_562.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52d75df9274577d4f4a_563.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52dc9bda8040bb1af20_564.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52dae9228884819fa65_565.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52da99a91caa67ad193_566.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52dda2c438002bb7caa_567.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52d7b8089cc7fcea153_568.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52dd4dca3c1d4ea159d_569.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ccc03c6e8def64ce8_570.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5396ba22e2205b1bb05_571.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a539d57cd4b936bde9f1_572.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e15ad4030873356e1_573.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52eaa0d5ddab3a95a8b_574.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52edef24e731269ec5e_575.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ecc03c6e8def64cfd_576.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52ee8dfb3c1ab413a5d_577.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a545af39735f479b27ad_578.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e0164338db9e556ef_579.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_580.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_581.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_582.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_583.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_584.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_585.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_586.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_587.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_588.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_589.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_590.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_591.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_592.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_593.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_594.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_595.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_596.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_597.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e8c910507a5dce5b0_598.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_599.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_600.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_601.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_602.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_603.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_604.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_605.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_606.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_607.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_608.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_609.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_610.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_611.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_612.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_613.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_614.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_615.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_616.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_617.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a52e56f34557d9112385_618.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53183b1641a62a50080_619.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54aca32fb49daa6806e_620.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a534aa0d5ddab3a95aaa_621.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a534d30f07a04c05433e_622.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5344bebd27b080831d7_623.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a543db9aa6f8bca17a92_624.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a539f32ba17229f9caf7_625.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5460aa69175db98acd1_626.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a534c4707959140128ca_627.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53975df9274577d4f8f_628.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a546a4615d5e51064703_629.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5397b8089cc7fcea1b8_630.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a539cd1c94f8dbad6f0b_631.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5472acb356d358da196_632.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5348f7b4321cff90977_633.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d3fb8e514bcef5a60_634.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bdb9aa6f8bca17ad9_635.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bf6e82e5f72ecc525_636.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54be9ca72337c9a2f72_637.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b18173e8160386ac0_638.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5397c7e9d162fbd9d3b_639.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5343291e180805e6d2c_640.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a536ab426de1c54e490f_641.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a536a912698fb55db779_642.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a537dac08ce6d3ffa5ec_643.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b2795baeedfed63dd_644.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5379af17c4e6a840c96_645.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a537e757987269320729_646.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53803049946273e67dd_647.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538b28ca0f377417109_648.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b1eb1fd454639c744_649.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c4029f1798eabf4b1_650.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53849501de2d89ed62b_651.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53896a6ae9f4f51f5bf_652.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c03049946273e67f1_653.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538532df3e5b962a8b5_654.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538da2c438002bb8307_655.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53895ff1e84c2f80dc5_656.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5387c7e9d162fbd9cfa_657.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5384499d9a090805212_658.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5388f093cb0fd10c6cb_659.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5388981e5219e36a8ca_660.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5388e5b8a7c906a0db9_661.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538dac08ce6d3ffa61d_662.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a0aa69175db98acea_663.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a2d6f969a6ece9abf_664.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a07fb55a4cc9c81ec_665.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a4f2720acabcd2a92_666.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b441a84c9978bd220_667.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538887f547842f9bacb_668.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bacd208e14c8423b7_669.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a0b1e8db27f5dc878_670.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a80fd90fb1634e921_671.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54aacfbd7b830c47d49_672.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b1c1be2910f44c7ad_673.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b2fd3187d9946750e_674.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538741da9e454ed3c79_675.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53cee1b9d49ae1e949e_676.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5387c7e9d162fbd9d1a_677.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538e589780bb8a53083_678.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5387c7e9d162fbd9d22_679.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c7813a9362b3ba567_680.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538e737ad6b6c2a9778_681.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538ea3d6b9de5a4df3e_682.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538d4dca3c1d4ea15e5_683.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c156293d551c8afe1_684.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538e4d8e6801014473e_685.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538a24e3e76da6b9349_686.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538828df88af0d69d61_687.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c3c0d3e7c0719ff75_688.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538a4615d5e5106456d_689.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5387d8de730125e72e8_690.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c3cc2ddea86b4256d_691.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ce8dfb3c1ab413aea_692.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53f32b361c41ea49c0e_693.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ff50498d275e0b648_694.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53fd088c1530f65d6e0_695.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5385b70982e0c999cd2_696.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53856f34557d91123ec_697.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538a1b0da348dc43cea_698.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53f61ba8ee33d993b14_699.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ce2bc911ee54ae993_700.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a538d30f07a04c0543af_701.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53896a6ae9f4f51f5d3_702.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5384bebd27b08083239_703.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5382795baeedfed6391_704.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cf06fb18e88ba8b84_705.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d49501de2d89edd06_706.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ca5dacce52f311b1a_707.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cae61ed6ff3d8b759_708.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cab11ba8aa91342d9_709.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c14e9e112545facb5_710.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ce2a89edea949deda_711.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c1f003325a19a09f9_712.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53f7c250cc3a2b41690_713.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d8937cdf123537f47_714.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53fd57cd4b936bdea3f_715.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53f9893e1f20156ab6e_716.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d8fd3d72a7b0d1526_717.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d04f3dce1bf23268f_718.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5391a934135797d0532_719.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d2b4a1ada2cf80dac_720.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cdad4106df47706ad_721.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ccd1c94f8dbad7066_722.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53cdfa6dba0c41b125d_723.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d3b570f61c50d7771_724.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d61ba8ee33d993af6_725.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d9845c05279e3ed7c_726.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c6556d3bd19c5bc2a_727.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d08506469c112ac67_728.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d2ba750a1ce5c7dc9_729.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d7bfc09da702e2116_730.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d03049946273e680e_731.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d9af17c4e6a840cb6_732.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c724dd9cc50a1c5f6_733.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a546a8fa2f66d517705c_734.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5397bbdac52bb4eb991_735.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a539acd208e14c84230c_736.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cf16b783cf2bb9361_737.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54adef24e731269f2cb_738.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a82e6853c2af92bbc_739.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c8f093cb0fd10c795_740.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d61ba8ee33d993b66_741.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c5b70982e0c999d3f_742.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a2795baeedfed63c9_743.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a61ba8ee33d993ac4_744.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a18173e8160386a2c_745.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a548baadb91372f81220_746.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53aeebb641d4e5a23a5_747.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ba3d913af78478891_748.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a7654070471fed6f6_749.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53aa99a91caa67ad2a6_750.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a25425b6caff577a4_751.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53a887f547842f9baec_752.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d6556d3bd19c5bc43_753.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d7b8089cc7fcea1d9_754.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53deaba95ada6fe7b56_755.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c4ce873b0f90ba3f4_756.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d869fa8302b3d3ed4_757.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53da912698fb55db7cb_758.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cbd015c4a28879049_759.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d869fa8302b3d3ece_760.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d026adbbf1ef06f61_761.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c0164338db9e55fa0_762.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53bd7e1de45dae866c3_763.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53bf5a90b31b7a40a75_764.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ceebb641d4e5a2468_765.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53adb4110c5ac675a48_766.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c10aa143cd17b06aa_767.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b35dd20fad76fa6b5_768.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d9af17c4e6a840d71_769.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53bee1b9d49ae1e9487_770.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53bad689b7c5a5dedb0_771.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53be4d8e680101447b4_772.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a549e534894fe01226ec_773.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c1666597fd1df43c5_774.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b3fb4fd75577bcf40_775.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bb76439c75980cbd2_776.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b07e169d0e8460ea7_777.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54de48db6bbbf012135_778.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5492324f477a3dee2a0_779.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a549fd5bf13839dfc593_780.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ce51e5034624fb7dc_781.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a549f6e82e5f72ecbef5_782.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b364ad692cf598ded_783.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54e764c263c8bf0ae56_784.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cbaadb91372f81294_785.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b7755a84858050171_786.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d66d293ddbe34188a_787.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ee00fba8370788fca_788.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b2ba750a1ce5c7d89_789.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b08506469c112ac45_790.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cbaadb91372f8129c_791.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b156293d551c8afc9_792.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cd30f07a04c054a63_793.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b06cf5349b5982076_794.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54be737ad6b6c2a9832_795.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b70f29f9db0da8750_796.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54c0888fba18412882f_797.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b2e11072f303d9d47_798.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53baf39735f479b2760_799.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d39478726ea871ff1_800.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b7755a848580500d8_801.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5497b8089cc7fcea240_802.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a549f16b783cf2bb8ce7_803.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b364ad692cf598bd9_804.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b6556d3bd19c5bd05_805.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ba24e3e76da6b9362_806.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b1f121aa18b79b677_807.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ba24e3e76da6b9405_808.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b01b3f8e72da50e1b_809.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53b00268de4cbf34b81_810.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ba098a1565c5ee793_811.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b7d8de730125e7fa2_812.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ccb2df0a1f32d54a1_813.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54beebb641d4e5a2430_814.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53caf502d041f94bd21_815.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ce48db6bbbf0120a5_816.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b86e84e0e511a09b9_817.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c9e694d59f76bf8d0_818.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53cc91ee43173867ff4_819.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54baf502d041f94bdbf_820.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53fc197a1d549ae447b_821.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c70f29f9db0da80e8_822.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53cddc4624d5253cc7a_823.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b5fde72027f1cc3fb_824.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c75df9274577d4fbb_825.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53ca5dacce52f3113fc_826.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53c4c23220743f4937c_827.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d35dd20fad76fa6dd_828.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a18e12a93e644679d_829.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a544e4d8e680101448a9_830.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53dba7386e4007eeb62_831.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54af96dbb7e495d3756_832.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a544887f547842f9bb1f_833.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d3c0d3e7c0719ff89_834.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d7dda5db7b66bf00d_835.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53de12f117225e999b4_836.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53dfafed98dceafdc24_837.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d2b7ed49ac647128e_838.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53eeaba95ada6fe7b6e_839.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53e3b8f00c692dce9f4_840.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53e025be27c5b36cb71_841.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d4207cff20aca0221_842.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53e23d4bc28eb495ac5_843.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53e636aba36c9698d69_844.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53e8f093cb0fd10c706_845.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54cf9a5b9cbf91488cb_846.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a53d7755a84858050102_847.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54df5c9624549fc737d_848.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b1666597fd1df43ae_849.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54beebb641d4e5a2444_850.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54dfa786a73027aafa8_851.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d96375901015ac008_852.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b1f121aa18b79b6c8_853.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54d7dda5db7b66bf0ca_854.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bf96dbb7e495d376e_855.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bcd1c94f8dbad704e_856.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54ee51e5034624fbe5e_857.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5493f4c8252209540a8_858.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a70f29f9db0da872e_859.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b8d3c5ca47d3726b4_860.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b4499d9a0908052de_861.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5493320be870fcf4b7d_862.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54bf06fb18e88ba8b70_863.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54926c243b5f8f2c498_864.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54a102c558e5cd63fcf_865.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a5493f4c8252209540ae_866.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54980fd90fb1634e90d_867.png",
+"https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69d9a54b20ce2f8303de30fd_868.png"
+];
+</script></div><div class="hide w-embed w-script"><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  var frames = (window.FRAME_URLS_A || []).concat(window.FRAME_URLS_B || []);
+  var TOTAL_FRAMES = frames.length;
+  var MOBILE_BREAKPOINT = 768;
+  var isMobile = window.innerWidth < MOBILE_BREAKPOINT;
+
+  var STEPS = [
+    { startFrame: 0, label: "aidos" },
+    { startFrame: 160, label: "zelos" },
+    { startFrame: 360, label: "styx" },
+    { startFrame: 714, label: "panopeia" }
+  ];
+
+  var FADE_SELECTORS = ["data-title","data-img","data-quote","data-desc","data-specs","data-step"];
+  var currentStep = -1;
+
+  function applyStep(si) {
+    if (si === currentStep || si < 0 || si >= STEPS.length) return;
+    currentStep = si;
+    var label = STEPS[si].label;
+    FADE_SELECTORS.forEach(function (attr) {
+      document.querySelectorAll("[" + attr + "]").forEach(function (el) {
+        el.style.opacity = el.getAttribute(attr) === label ? "1" : "0";
+      });
+    });
+    document.querySelectorAll("[data-bullet]").forEach(function (el) {
+      var bi = parseInt(el.getAttribute("data-bullet"), 10);
+      if (bi === si) {
+        if (isMobile) { el.style.width = "40px"; el.style.height = "2px"; }
+        else { el.style.width = ""; el.style.height = "40px"; }
+        el.style.backgroundColor = "#B1953F";
+      } else {
+        if (isMobile) { el.style.width = "10px"; el.style.height = "2px"; }
+        else { el.style.width = ""; el.style.height = "10px"; }
+        el.style.backgroundColor = "rgba(0,0,0,0.1)";
+      }
+    });
+  }
+
+  function applyTransitions() {
+    FADE_SELECTORS.forEach(function (attr) {
+      document.querySelectorAll("[" + attr + "]").forEach(function (el) {
+        el.style.transition = "opacity 0.4s ease";
+      });
+    });
+    document.querySelectorAll("[data-bullet]").forEach(function (el) {
+      el.style.transition = isMobile
+        ? "width 0.4s ease, background-color 0.4s ease"
+        : "height 0.4s ease, background-color 0.4s ease";
+    });
+  }
+
+  function goToStep(dir) {
+    var n = currentStep;
+    if (dir === "next" && n < STEPS.length - 1) n++;
+    else if (dir === "prev" && n > 0) n--;
+    if (n !== currentStep) applyStep(n);
+  }
+
+  if (isMobile) {
+    applyTransitions();
+    applyStep(0);
+    document.querySelectorAll("[data-nav]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        goToStep(this.getAttribute("data-nav"));
+      });
+    });
+    var tsx = 0, tsy = 0;
+    document.addEventListener("touchstart", function (e) {
+      tsx = e.changedTouches[0].screenX;
+      tsy = e.changedTouches[0].screenY;
+    }, { passive: true });
+    document.addEventListener("touchend", function (e) {
+      var dx = tsx - e.changedTouches[0].screenX;
+      var dy = tsy - e.changedTouches[0].screenY;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+        goToStep(dx > 0 ? "next" : "prev");
+      }
+    }, { passive: true });
+
+  } else {
+    if (!frames.length) return;
+    var canvas = document.getElementById("chiplet-canvas");
+    if (!canvas) return;
+    var ctx = canvas.getContext("2d");
+    canvas.width = 1708;
+    canvas.height = 962;
+    var images = [];
+    var scrollReady = false;
+
+    var BATCH = 30;
+    var batchStart = 0;
+
+    function loadBatch() {
+      var end = Math.min(batchStart + BATCH, TOTAL_FRAMES);
+      var batchLoaded = 0;
+      var batchSize = end - batchStart;
+      for (var i = batchStart; i < end; i++) {
+        (function (idx) {
+          var img = new Image();
+          img.src = frames[idx];
+          img.onload = img.onerror = function () {
+            batchLoaded++;
+            if (idx === 0) draw(0);
+            if (batchLoaded === batchSize) {
+              batchStart = end;
+              if (batchStart < TOTAL_FRAMES) setTimeout(loadBatch, 0);
+              if (!scrollReady && batchStart >= 60) {
+                scrollReady = true;
+                initScroll();
+              }
+            }
+          };
+          images[idx] = img;
+        })(i);
+      }
+    }
+
+    var cur = -1;
+    function draw(i) {
+      i = Math.max(0, Math.min(i, TOTAL_FRAMES - 1));
+      if (i === cur) return;
+      cur = i;
+      var img = images[i];
+      if (img && img.complete && img.naturalWidth > 0) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      }
+    }
+
+    function initScroll() {
+      var w = document.getElementById("roadmap-scroll");
+      if (!w) return;
+      applyTransitions();
+      var o = { frame: 0 };
+      gsap.to(o, {
+        frame: TOTAL_FRAMES - 1,
+        ease: "none",
+        snap: "frame",
+        scrollTrigger: {
+          trigger: w,
+          start: "top top",
+          end: "bottom bottom",
+          scrub: 0.5
+        },
+        onUpdate: function () {
+          var f = Math.round(o.frame);
+          draw(f);
+          var s = 0;
+          for (var i = STEPS.length - 1; i >= 0; i--) {
+            if (f >= STEPS[i].startFrame) { s = i; break; }
+          }
+          applyStep(s);
+        }
+      });
+      draw(0);
+      applyStep(0);
+    }
+
+    loadBatch();
+  }
+
+});
+</script></div></section><section data-section="scroll" class="section_scroll hide-desktop"><div class="padding-global"><div class="container-large padding-section-medium"><div id="roadmap-mobile" class="flex-v-top"><div class="flex-h-spacebetween-center"><div class="is-relative is-center"><div data-title="aidos" class="name_absolute is-mobile"><div class="text-size-large text-color-yellow text-weight-medium">Aïdôs</div><div class="date_scroll"><div>2027</div></div></div><div data-title="zelos" class="name_absolute is-mobile"><div class="text-size-large text-color-yellow text-weight-medium">Zélos</div><div class="date_scroll"><div>2030</div></div></div><div data-title="styx" class="name_absolute is-mobile"><div class="text-size-large text-color-yellow text-weight-medium">Styx</div><div class="date_scroll"><div>2032</div></div></div><div data-title="panopeia" class="name_absolute is-mobile"><div class="text-size-large text-color-yellow text-weight-medium">Panopeia</div><div class="date_scroll"><div>2033</div></div></div></div><div class="wrapper_nav-scroll"><a data-nav="prev" href="#" class="nav-prev w-inline-block"><div class="embed-100-scroll w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 13 22" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+<path d="M11.4143 0.707031L1.41431 10.707L11.4143 20.707" stroke="currentColor" stroke-width="2"/>
+</svg></div></a><a data-nav="next" href="#" class="nav-next w-inline-block"><div class="embed-100-scroll w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 13 22" fill="none" preserveAspectRatio="xMidYMid meet" aria-hidden="true" role="img">
+<path d="M0.707031 20.707L10.707 10.707L0.707031 0.707031" stroke="currentColor" stroke-width="2"/>
+</svg></div></a></div></div><div class="spacer-large"></div><div class="is-relative is-scroll"><div data-quote="aidos" class="container_desc-yellow is-mobile"><div><strong>Aïdôs</strong>, the Greek goddess of humility. A single logical qubit, but unlike any before it.</div></div><div data-quote="zelos" class="container_desc-yellow is-mobile"><div><strong>Zélos</strong>, the embodiment of ambition and pursuit of excellence, mirrors the drive to scale quantum systems with fidelity and control.</div></div><div data-quote="styx" class="container_desc-yellow is-mobile"><div><span class="text-weight-bold">Styx,</span> the goddess and river dividing life from death, represents the threshold to quantum advantage, when quantum hardware becomes truly resilient</div></div><div data-quote="panopeia" class="container_desc-yellow is-mobile"><div><span class="text-weight-bold"><strong>Panopeia</strong></span>, &quot;she who sees everything&quot;, is the moment we reach universal quantum computing</div></div></div><div class="spacer-medium"></div><div class="is-relative is-scroll is-img"><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d3c0f50a0014c3d02345_image-1-animated.png" loading="lazy" data-img="aidos" alt="" class="image100 is-scroll"/><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d3d757fc51cb888a419d_image-2-animated.png" loading="lazy" data-img="zelos" alt="" class="image100 is-scroll"/><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d3ebbf7735801254ed63_image-3-animated.png" loading="lazy" data-img="styx" alt="" class="image100 is-scroll"/><img src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/69e0d40741116c00f92fe48c_image-4-animated.png" loading="lazy" data-img="panopeia" alt="" class="image100 is-scroll"/><div class="shape_bottom-scroll is-mobile"></div></div><div class="spacer-large"></div><div class="wrapper_bullet"><div class="container_bullet is-mobile"><div data-bullet="0" class="bullet is-mobile"></div><div data-bullet="1" class="bullet is-mobile"></div><div data-bullet="2" class="bullet is-mobile"></div><div data-bullet="3" class="bullet is-mobile"></div></div></div><div class="spacer-large"></div><div class="is-relative is-scroll is-contenu"><div data-desc="aidos" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold">First logical operations</div><div class="text-scroll-regular">Aïdôs marks C12’s introduction of foundational quantum error correction on a compact, next-generation solid-state architecture using spin qubits.</div></div><div data-desc="zelos" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold"><strong>Modular architecture begins</strong></div><div class="text-scroll-regular">Zélos introduces a chiplet-based architecture designed for replication and system-level scaling. This is when modular integration becomes central.</div></div><div data-desc="styx" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold"><strong>Scaling through replication</strong></div><div class="text-scroll-regular">Styx combines many Zélos chiplets via inter-chiplet coupling, significantly increasing logical performance while improving efficiency.</div></div><div data-desc="panopeia" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold"><strong>Integrated utility-scale system</strong></div><div class="text-scroll-regular">Panopeia combines Styx modules to complete the transition to an integrated, deployable quantum system capable of sustained logical computation.</div></div></div><div class="spacer-xlarge"></div><div class="is-relative is-scroll is-contenu is-2"><div data-specs="aidos" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">16 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">1 logical qubit</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻³ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Universal physical gate set</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Sub-μs gate speed</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Long-distance resonator couplers</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cloud-accessible system</div></div></div></div><div data-specs="zelos" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">236 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">8 logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻⁵ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Modular chiplet packaging</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cryoelectronics</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">All-digital control signals</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Qubit bias memory network</div></div></div></div><div data-specs="styx" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">8,500 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">128+ logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻⁶ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Multi-chiplet module</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Chip-integrated amplifiers</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Major increase in power efficiency per qubit</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Dramatically increased qubit density</div></div></div></div><div data-specs="panopeia" class="flex-v-top gap-20 width-100 is-mobile"><div class="text-scroll-bold">What it introduces</div><div class="flex-v-left width100"><div class="wrapper_caracteristique"><div class="text-scroll-regular">100,000 physical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">792+ logical qubits</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">10⁻⁷ logical error rate</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Multi-module platform</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Cross-module couplers</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">Sub-watt power per qubit at scale</div></div><div class="wrapper_caracteristique"><div class="text-scroll-regular">High qubit count, still within a single cryostat</div></div></div></div></div></div></div></div></section><section class="section_cta"><div class="padding-global"><div class="container-large padding-section-medium"><div class="flex-h-spacebetween-bottom"><div class="max-width-medium is-38"><h2 class="heading-style-h2 text-color-yellow">Let’s explore what quantum can do for you</h2></div><div class="flex-v-top gap-0-5"><div class="button-group is-cta"><div pop-up="open" fs-linkblockedit-element="parent" class="button_line yellow-6"><a button-text="line" href="mailto:solutions@c12qe.com?subject=Speak%20with%20our%20team" class="text_button-line yellow-7"><strong>Get deeper insights</strong></a><div class="hover_line_button yellow-8"></div></div></div></div></div></div></div></section></div><section class="footer"><div class="padding-global"><div class="container-large padding-section_footer"><div class="wrapper_footer"><div id="w-node-_3f4ea746-be3f-508b-d402-ff3c17a8a407-060be7a4" class="wrapper_left-footer"><div class="container_logo-footer"><a href="/" class="footer_logo-link is-footer w-nav-brand"><img loading="lazy" src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/696fd18748836241627bd7a8_Layer_1.svg" alt="" class="footer_logo"/></a><div class="text-size-regular height-130 text-color-white">Unique at scale</div></div><div class="spacer-large"></div><div class="wrapper_newsletter-item"><div class="heading-style-h4 text-color-white">Follow what we’re building</div><div class="spacer-small"></div><div class="button-group"><a pop-up="open" data-element="nav-button" data-w-id="3e553f91-d53d-9907-dda2-81921b6fef26" href="/join-us" class="button-block is-white-footer w-inline-block"><div class="button-text">Stay updated</div><div data-element="nav-button-bg" class="button-block-overlay is-secondary"></div></a></div></div></div><div class="container_link-footer"><div class="wrapper_link-footer"><a href="/" class="navbar_link-footer">Home</a><a href="/technology" class="navbar_link-footer">Technology</a><a href="/solutions" class="navbar_link-footer">Solutions</a><a href="/lab-tour" class="navbar_link-footer">Lab tour</a><a href="mailto:careers@c12qe.com?subject=Career%20at%20C12" class="navbar_link-footer">Careers</a></div><div class="wrapper_link-footer"><a href="/about" class="navbar_link-footer">About</a><a href="/join-us" class="navbar_link-footer">Join us</a><a href="/news" class="navbar_link-footer">News</a><a href="mailto:hello@c12qe.com?subject=Request%20from%20the%20website" class="navbar_link-footer">Contact us</a><a href="mailto:media@c12qe.com?subject=Press%20request" class="navbar_link-footer">Media</a></div><div class="wrapper_link-footer"><a href="/terms-of-service" class="navbar_link-footer">Terms of service</a><a href="/privacy-policy" class="navbar_link-footer">Privacy policy</a><a id="open-cookie-preferences" href="#" class="navbar_link-footer">Cookie preferences</a><a href="/software-license-agreement" class="navbar_link-footer">Software license agreement</a><a href="https://maps.app.goo.gl/MJqVPcrrNpbGegG7A" target="_blank" class="navbar_link-footer">26 rue des Fossés Saint-Jacques,  75005 Paris</a></div></div></div></div></div></section></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6949d6da6bd006ff5e73e891" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/js/webflow.schunk.a5f29a4b01bb38e5.js" type="text/javascript" integrity="sha384-kz0koDvGfA0xjX2q9ONiOvvUJqdG1+BaLJhAu9tW2L+qY52jps/4bf1oQq0+WH2R" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/js/webflow.schunk.07ae91e3130c0cdd.js" type="text/javascript" integrity="sha384-r1yfLTQ/Q6uCeMdJSLRq3E5YdCqTMgWFEoNUnAeosjVBwcd+H+/HmLOJszXMhwPg" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/js/webflow.schunk.9dfb96661114d3db.js" type="text/javascript" integrity="sha384-WomGmw6dEzLneGT/kPgtEBxcnZdNwGyYjo8D14umPoCXFAogmplTeXR1XciQq32y" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6949d6da6bd006ff5e73e891/js/webflow.49d79897.dc96a5a1e5bbbb8b.js" type="text/javascript" integrity="sha384-A7iVdNt+fylNsF1S/wGcXJRrcKGaGsUzkgRZOkmnYlYKP/aam6YNsYtmgoF9F5Kb" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/Flip.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.14.2/SplitText.min.js" type="text/javascript"></script><script type="text/javascript">gsap.registerPlugin(Flip,ScrollTrigger,SplitText);</script><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWLJJXW2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script type='text/javascript' charset='utf-8'>
+  var col = document.getElementsByClassName('joinus_grid-wrapper');
+  if (col.length > 0) {
+    
+    var elt = col[0];
+    
+    fetch('https://api.lever.co/v0/postings/c12qe?mode=json')
+      .then(response => response.json())
+      .then(data => {
+      	console.log(data)
+        const list = document.querySelector('div.w-dyn-list');
+		const jobNode = document.querySelector('div.joinus_item-wrapper');
+      	const jobNodeList = [];
+        data.forEach((job) => {
+          const newJobNode = jobNode.cloneNode(true);
+          newJobNode.firstChild.firstChild.textContent = job.text;
+		  newJobNode.lastChild.firstChild.href = job.hostedUrl;
+          jobNodeList.push(newJobNode);
+        });
+        list.replaceChildren(...jobNodeList);
+      });
+  }
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var cookieLink = document.getElementById('open-cookie-preferences');
+    if (cookieLink) {
+        cookieLink.addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            openAxeptioCookies(); // Reopen the cookie widget
+        });
+    }
+});
+</script><script>
+document.addEventListener("DOMContentLoaded", function () {
+  var items = document.querySelectorAll('[data-col-hover="item"]');
+  var STEPS_MAP = {
+    "1": 69,
+    "2": 236,
+    "3": 575,
+    "4": 865
+  };
+  var TOTAL_FRAMES = 869;
+  var MOBILE_BREAKPOINT = 768;
+
+  function activateColumn(col) {
+    document.querySelectorAll('[data-col="' + col + '"]')
+      .forEach(function (el) { el.setAttribute("data-col-active", "true"); });
+    document.querySelectorAll('[data-col-hide="true"][data-col="' + col + '"]')
+      .forEach(function (el) { el.setAttribute("data-col-hidden", "true"); });
+  }
+
+  function deactivateColumn(col) {
+    document.querySelectorAll('[data-col="' + col + '"]')
+      .forEach(function (el) { el.removeAttribute("data-col-active"); });
+    document.querySelectorAll('[data-col-hide="true"][data-col="' + col + '"]')
+      .forEach(function (el) { el.removeAttribute("data-col-hidden"); });
+  }
+
+  items.forEach(function (item) {
+    item.addEventListener("mouseenter", function () {
+      var col = this.getAttribute("data-col");
+      if (col) activateColumn(col);
+    });
+
+    item.addEventListener("mouseleave", function () {
+      var col = this.getAttribute("data-col");
+      if (!col) return;
+      setTimeout(function () {
+        var stillHovered = document.querySelector(
+          '[data-col-hover="item"][data-col="' + col + '"]:hover'
+        );
+        if (!stillHovered) deactivateColumn(col);
+      }, 10);
+    });
+
+    item.addEventListener("click", function () {
+      var col = this.getAttribute("data-col");
+      if (!col) return;
+
+      var isMobile = window.innerWidth < MOBILE_BREAKPOINT;
+
+      if (isMobile) {
+        var section = document.querySelector('[data-section="scroll"]');
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        return;
+      }
+
+      var wrapper = document.getElementById("roadmap-scroll");
+      if (!wrapper) return;
+      var startFrame = STEPS_MAP[col];
+      if (startFrame === undefined) return;
+      var scrollableHeight = wrapper.scrollHeight - window.innerHeight;
+      var ratio = startFrame / (TOTAL_FRAMES - 1);
+      var targetScroll = wrapper.getBoundingClientRect().top
+        + window.pageYOffset
+        + (ratio * scrollableHeight);
+      window.scrollTo({ top: targetScroll, behavior: "smooth" });
+    });
+
+    item.style.cursor = "pointer";
+  });
+});
+</script></body></html>
